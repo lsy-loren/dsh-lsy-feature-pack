@@ -10,11 +10,11 @@
 ## 安装
 
 ```sh
-# 直接从 GitHub 安装
-dsh plugin --profile <你的 profile> add github:<你的 GitHub 用户名>/dsh-lsy-feature-pack
+# 直接从 GitHub 安装（把 <owner> 换成仓库所有者）
+dsh plugin --profile <你的 profile> add github:<owner>/dsh-lsy-feature-pack
 
 # 或者先克隆，再按本地目录安装
-git clone https://github.com/<你的 GitHub 用户名>/dsh-lsy-feature-pack
+git clone https://github.com/<owner>/dsh-lsy-feature-pack
 dsh plugin --profile <你的 profile> add ./dsh-lsy-feature-pack
 ```
 
