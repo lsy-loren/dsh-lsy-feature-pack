@@ -1,0 +1,16 @@
+{
+  "name": "lsy-feature-pack",
+  "title": "功能增强 / Feature Pack",
+  "description": "界面功能增强：支持会话删除、支持图片皮肤。",
+  "plugins": [
+    {
+      "name": "dsh-lsy-feature-pack",
+      "repo": "lsy-loren/dsh-lsy-feature-pack",
+      "install": "dsh plugin --profile <profile> add github:lsy-loren/dsh-lsy-feature-pack",
+      "icon": "https://raw.githubusercontent.com/lsy-loren/dsh-lsy-feature-pack/main/icon.png",
+      "category": "Appearance",
+      "tags": ["session", "delete", "skin", "background", "appearance"],
+      "features": ["会话删除", "图片皮肤"]
+    }
+  ]
+}

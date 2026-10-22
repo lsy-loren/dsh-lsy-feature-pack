@@ -15,14 +15,16 @@
     ".": "./index.js",
     "./client": "./client.js",
     "./locale/*.json": "./locale/*.json",
-    "./icon": "./icon.svg"
+    "./icon": "./icon.png"
   },
   "files": [
     "index.js",
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.png",
+    "LICENSE",
+    "README.md"
   ],
   "dsh": {
     "bundle": {
